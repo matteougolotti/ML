@@ -56,4 +56,3 @@ print(candidate)
 final_model = DecisionTreeRegressor(max_leaf_nodes = 100, random_state = 0)
 
 final_model.fit(X, y)
-step_2.check()
